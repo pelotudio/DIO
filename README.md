@@ -1,73 +1,50 @@
-# DIO
-Brute Force com Kali Linux
+# Brute Force com Kali Linux
 
-Sobre o projeto
+Projeto desenvolvido durante o **Bootcamp Santander de Cibersegurança**, oferecido pela **DIO**.
 
-Esse projeto foi desenvolvido durante o Bootcamp Santander de Cibersegurança da DIO.
+## Sobre o projeto
 
-A ideia foi aprender como funcionam os ataques de força bruta e conhecer algumas ferramentas utilizadas para testar a segurança de senhas e sistemas de login.
+O objetivo deste projeto foi aprender, em um ambiente de laboratório controlado, como funcionam os ataques de força bruta e conhecer ferramentas utilizadas em avaliações de segurança de senhas e sistemas de autenticação.
 
-O que aprendi
+## Conteúdos estudados
 
-Durante as aulas, tive contato com vários tipos de ataques e ferramentas de segurança, como:
+Durante o bootcamp, foram abordados os seguintes conceitos:
 
-Brute Force: tentativa de descobrir senhas testando várias combinações.
+- **Brute force:** tentativa de identificar uma senha por meio do teste de diferentes combinações.
+- **Password spraying:** teste de uma senha comum em diferentes contas, com autorização e em ambiente controlado.
+- **Credential stuffing:** uso de credenciais previamente expostas para compreender os riscos da reutilização de senhas.
+- **Wordlists:** listas de palavras usadas em exercícios de auditoria de senhas.
 
-Password Spraying: testar uma mesma senha em diferentes usuários.
+## Ferramentas e ambientes
 
-Credential Stuffing: utilizar credenciais que já foram vazadas em outros serviços.
+- Kali Linux
+- Medusa
+- Hydra
+- Ncrack
+- John the Ripper
+- WPScan
+- Patator
+- SMBClient
+- Metasploitable 2
 
-Wordlists: listas de palavras e senhas utilizadas nos testes.
+## Atividades de laboratório
 
-Ferramentas utilizadas
+Os exercícios foram realizados com o Kali Linux e o Metasploitable 2, em ambiente isolado. Entre os temas trabalhados, estão:
 
-Kali Linux
+- Configuração do ambiente de laboratório.
+- Criação de listas de usuários, senhas e wordlists.
+- Testes de autenticação em formulários de login.
+- Exercícios de análise de senhas com Medusa.
+- Enumeração SMB e estudo de password spraying.
+- Testes de acesso a compartilhamentos usando SMBClient.
 
-Medusa
+## Aprendizados
 
-Hydra
+O contato com ferramentas como Hydra e Medusa ajudou a compreender como testes autorizados podem contribuir para avaliar a segurança de sistemas. Também ficou mais claro por que é importante criar senhas fortes, evitar reutilizá-las e proteger as credenciais de acesso.
 
-Ncrack
+> **Uso responsável:** os conceitos e ferramentas apresentados devem ser utilizados somente em ambientes próprios, de laboratório ou com autorização explícita.
 
-John the Ripper
+## Formação
 
-WPScan
-
-Patator
-
-SMBClient
-
-Metasploitable 2
-
-Práticas do laboratório
-
-Ao longo do curso, foram apresentados alguns exercícios utilizando o Kali Linux e o Metasploitable 2.
-
-Entre os assuntos estudados estão:
-
-Configuração do ambiente de laboratório.
-
-Criação de listas de usuários e senhas.
-
-Criação de wordlists.
-
-Testes de força bruta em formulários de login.
-
-Testes de combinações de acesso com Medusa.
-
-Enumeração SMB e Password Spraying.
-
-Testes de acesso utilizando SMBClient.
-
-O que achei interessante
-
-Uma das coisas que mais me chamou a atenção foi conhecer ferramentas como Hydra e Medusa e entender como elas podem ser utilizadas para testar a segurança de sistemas.
-
-Também consegui entender melhor por que é importante utilizar senhas fortes e evitar reutilizar a mesma senha em vários serviços.
-
-Conclusão
-
-Esse foi mais um passo no meu aprendizado em cibersegurança. Ainda tenho muito para aprender, mas gostei de conhecer essas ferramentas e entender um pouco melhor como funcionam os ataques contra senhas.
-
-Curso: Bootcamp Santander - Cibersegurança
-Plataforma: DIO
+- **Curso:** Bootcamp Santander - Cibersegurança
+- **Plataforma:** DIO
